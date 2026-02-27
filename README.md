@@ -19,6 +19,7 @@ A production-ready RESTful API for a salon booking system built with **Laravel 1
 - [Installation](#installation)
 - [API Endpoints](#api-endpoints)
 - [Testing with Postman](#testing-with-postman)
+- [API Documentation](#api-documentation)
 - [Default Credentials](#default-credentials)
 
 ---
@@ -201,6 +202,14 @@ POST /api/reservations
 2. Time must be within business hours
 3. No overlapping bookings allowed
 4. End time is auto-calculated from service duration
+
+---
+
+## 📄 API Documentation
+
+Full API documentation is available here:
+
+[View Documentation](docs/salon-api-documentation.pdf)
 
 ---
 
