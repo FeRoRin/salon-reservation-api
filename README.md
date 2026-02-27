@@ -1,6 +1,6 @@
 # 💈 Salon Reservation System API
 
-A production-ready RESTful API for a salon booking system built with **Laravel 11**, **MySQL**, and **Laravel Sanctum**.
+A production-ready RESTful API for a salon booking system built with **Laravel 12**, **MySQL**, and **Laravel Sanctum**.
 
 ![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -49,7 +49,7 @@ This is an API-only backend for a salon booking system. It supports three roles 
 
 | Layer | Technology |
 |-------|-----------|
-| Framework | Laravel 11 |
+| Framework | Laravel 12 |
 | Database | MySQL 8+ |
 | Authentication | Laravel Sanctum |
 | PHP Version | 8.2+ |
