@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\ReservationController as AdminReservationController;
 use App\Http\Controllers\Client\ReservationController as ClientReservationController;
 use App\Http\Controllers\Client\ServiceController;
+use App\Http\Controllers\Client\GuestBookingController;
 use App\Http\Controllers\SuperAdmin\AdminController;
 use App\Http\Controllers\SuperAdmin\BusinessSettingsController;
 use App\Http\Controllers\SuperAdmin\ServiceController as SuperAdminServiceController;
@@ -24,6 +25,10 @@ Route::post('/login', [AuthController::class, 'login'])
 Route::get('/services', [ServiceController::class, 'index']);
 
 Route::get('/business-settings', [BusinessSettingsController::class, 'show']);
+
+// booking by guest
+Route::post('/guest-booking', [GuestBookingController::class, 'store']);
+//Route::post('/guest-booking', [App\Http\Controllers\Client\GuestBookingController::class, 'store']);
 
 /*
 |--------------------------------------------------------------------------
