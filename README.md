@@ -306,8 +306,6 @@ database/
 └── seeders/               # Super Admin + default settings
 routes/
 └── api.php                # All API routes
-config/
-└── cors.php               # CORS allowed origins
 ```
 
 ---
