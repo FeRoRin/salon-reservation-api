@@ -15,7 +15,7 @@ class DashboardController extends Controller
 
     public function index(): JsonResponse
     {
-        $totalReservations = Reservation::count();
+       $totalReservations = Reservation::count();
 
         $todayReservations = Reservation::where('reservation_date', today())->get();
 
@@ -42,4 +42,7 @@ class DashboardController extends Controller
             'reservations_by_status' => $byStatus,
         ]);
     }
+
+
+
 }
